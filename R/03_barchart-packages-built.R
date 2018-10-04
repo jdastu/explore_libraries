@@ -1,14 +1,18 @@
 ## remember to restart R here!
-
+library(tidyverse)
+library(readr)
+library(here)
 ## make a barchart from the frequency table in data/add-on-packages-freqtable.csv
 
 ## read that csv into a data frame
 ## hint: readr::read_csv() or read.csv()
 ## idea: try using here::here() to create the file path
-
+apt_freqtable = read_csv(here('data/apt_freqtable.csv'))
 ## if you use ggplot2, code like this will work:
 p= ggplot(apt_freqtable, aes(x = Built, y = n)) +
   geom_bar(stat = "identity") + theme_minimal()
+
+print(p)
 
 ggsave(plot = p, file=here('figs','built-barchart.png'))
 

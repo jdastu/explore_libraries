@@ -5,8 +5,10 @@ base64enc,3.5.0
 BH,3.5.0
 bindr,3.5.0
 bindrcpp,3.5.0
+bitops,3.5.0
 broom,3.5.0
 callr,3.5.0
+caTools,3.5.0
 cellranger,3.5.0
 cli,3.5.0
 clipr,3.5.0
@@ -29,6 +31,7 @@ git2r,3.5.0
 glue,3.5.0
 gtable,3.5.0
 haven,3.5.0
+here,3.5.0
 highr,3.5.0
 hms,3.5.0
 htmltools,3.5.0
@@ -67,8 +70,10 @@ rstudioapi,3.5.0
 rvest,3.5.0
 scales,3.5.0
 selectr,3.5.0
+srvyr,3.5.0
 stringi,3.5.0
 stringr,3.5.0
+survey,3.5.0
 tibble,3.5.0
 tidyr,3.5.0
 tidyselect,3.5.0
